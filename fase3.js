@@ -46,5 +46,7 @@ casaLannister.mostrarMiembros();
 const batallaBastardos = new Batalla();
 batallaBastardos.iniciarBatalla(casaStark,casaLannister);
 
+
 batallaBastardos.mostrarGuerrerosMuertosEnBatalla();
+
 
