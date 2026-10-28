@@ -17,16 +17,16 @@ const filoRojo = new Arma("Filo Rojo", 88);
 const lanzaDeCaza = new Arma("Lanza de Caza", 60);
 
 // === GUERREROS DE LA CASA STARK ===
-const jon = new Guerrero("Jon Snow", 25, true, casaStark, garra);
-const arya = new Guerrero("Arya Stark", 18, true, casaStark, aguja);
-const robb = new Guerrero("Robb Stark", 22, false, casaStark, espadaLarga);
-const brienne = new Guerrero("Brienne de Tarth", 30, true, casaStark, hacha);
+const jon = new Guerrero("Jon Snow", 25, casaStark, garra);
+const arya = new Guerrero("Arya Stark", 18, casaStark, aguja);
+const robb = new Guerrero("Robb Stark", 22, casaStark, espadaLarga);
+const brienne = new Guerrero("Brienne de Tarth", 30, casaStark, hacha);
 
 // === GUERREROS DE LA CASA LANNISTER ===
-const jaime = new Guerrero("Jaime Lannister", 32, true, casaLannister, filoRojo);
-const cersei = new Guerrero("Cersei Lannister", 34, true, casaLannister, lanzaDeCaza);
-const tyrion = new Guerrero("Tyrion Lannister", 30, true, casaLannister, ballesta);
-const gregor = new Guerrero("Gregor Clegane", 38, true, casaLannister, hacha);
+const jaime = new Guerrero("Jaime Lannister", 32, casaLannister, filoRojo);
+const cersei = new Guerrero("Cersei Lannister", 34, casaLannister, lanzaDeCaza);
+const tyrion = new Guerrero("Tyrion Lannister", 30, casaLannister, ballesta);
+const gregor = new Guerrero("Gregor Clegane", 38, casaLannister, hacha);
 
 // === AÑADIR PERSONAJES A LAS CASAS ===
 casaStark.agregarMiembro(jon);

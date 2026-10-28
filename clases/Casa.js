@@ -35,7 +35,7 @@ class Casa {
     }
 
     // Añade un personaje a la casa.
-    personajeCasa(personaje) {
+    agregarMiembro(personaje) {
         if (!this.#arrayPersonaje.includes(personaje)) {
             this.#arrayPersonaje.push(personaje);
         }
